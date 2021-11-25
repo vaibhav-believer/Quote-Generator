@@ -3,7 +3,7 @@ const quote = document.getElementById('quote');
 const author = document.getElementById('author');
 
 async function getQuote() {
-	const baseUrl = 'https://goquotes-api.herokuapp.com/api/v1/random?count=1';
+	const baseUrl = 'https://type.fit/api/quotes';
 
 	try {
 		const response = await fetch(baseUrl);
